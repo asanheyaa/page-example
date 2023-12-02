@@ -128,13 +128,8 @@ body._lock {
 
 [class*=__container] {
   max-width: 1050px;
-  margin-left: 75px;
+  margin: 0 auto;
   padding: 0 15px;
-}
-@media (max-width: 1150px) {
-  [class*=__container] {
-    margin: 0 auto;
-  }
 }
 
 @media (max-width: 991.98px) {
@@ -256,7 +251,12 @@ body._lock {
 }
 .main__container {
   background: #fff;
-  padding: 40px 100px;
+  padding: 40px 192px;
+}
+@media (max-width: 991.98px) {
+  .main__container {
+    padding: 40px 100px;
+  }
 }
 @media (max-width: 776.98px) {
   .main__container {
