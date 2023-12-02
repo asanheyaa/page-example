@@ -241,14 +241,6 @@ body._lock {
 .main {
   padding: 40px 15px;
 }
-.main:not(:last-child) {
-  margin-bottom: 24px;
-}
-@media (max-width: 1050px) {
-  .main:not(:last-child) {
-    margin-bottom: calc(16px + 8 * (100vw - 320px) / 730);
-  }
-}
 .main__container {
   background: #fff;
   padding: 40px 192px;
