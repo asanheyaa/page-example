@@ -225,7 +225,7 @@ body._lock {
   text-align: center;
 }
 .header__container {
-  padding: 20px 15px;
+  padding: 10px 15px 20px;
   background: none;
 }
 .header__label {
