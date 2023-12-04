@@ -106,7 +106,7 @@ body {
   line-height: 1.5;
   font-family: "SpiegelSans";
   font-size: 20px;
-  color: #000;
+  color: #1F1E1C;
   overflow-wrap: break-word;
   background-color: rgb(241, 239, 237);
 }
@@ -244,6 +244,7 @@ body._lock {
 .main__container {
   background: #fff;
   padding: 40px 192px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 991.98px) {
   .main__container {
@@ -290,14 +291,15 @@ body._lock {
     margin-bottom: calc(40px + 10 * (100vw - 320px) / 730);
   }
 }
-.main p {
+.main p, .main a {
   font-family: SpiegelSerif;
+  display: block;
 }
-.main p:not(:last-child) {
+.main p:not(:last-child), .main a:not(:last-child) {
   margin-bottom: 24px;
 }
 @media (max-width: 1050px) {
-  .main p:not(:last-child) {
+  .main p:not(:last-child), .main a:not(:last-child) {
     margin-bottom: calc(16px + 8 * (100vw - 320px) / 730);
   }
 }
