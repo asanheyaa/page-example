@@ -311,6 +311,9 @@ body._lock {
     color: #000;
   }
 }
+.main img {
+  max-width: 100%;
+}
 
 .footer {
   background: #2f2d2b;
