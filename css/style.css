@@ -106,9 +106,9 @@ body {
   line-height: 1.5;
   font-family: "SpiegelSans";
   font-size: 20px;
-  color: #1F1E1C;
+  color: #FFF;
   overflow-wrap: break-word;
-  background-color: rgb(241, 239, 237);
+  background-color: #000000;
 }
 
 body._lock {
@@ -238,12 +238,9 @@ body._lock {
   text-transform: uppercase;
 }
 
-.main {
-  padding: 40px 15px;
-}
 .main__container {
-  background: #fff;
-  padding: 40px 192px;
+  background: #1F1E1C;
+  padding: 50px 192px;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 991.98px) {
