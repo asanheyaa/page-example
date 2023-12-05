@@ -239,7 +239,7 @@ body._lock {
 }
 
 .main__container {
-  background: #1F1E1C;
+  background: #1f1e1c;
   padding: 50px 192px;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
 }
@@ -288,15 +288,18 @@ body._lock {
     margin-bottom: calc(40px + 10 * (100vw - 320px) / 730);
   }
 }
-.main p, .main a {
+.main p,
+.main a {
   font-family: SpiegelSerif;
   display: block;
 }
-.main p:not(:last-child), .main a:not(:last-child) {
+.main p:not(:last-child),
+.main a:not(:last-child) {
   margin-bottom: 24px;
 }
 @media (max-width: 1050px) {
-  .main p:not(:last-child), .main a:not(:last-child) {
+  .main p:not(:last-child),
+  .main a:not(:last-child) {
     margin-bottom: calc(16px + 8 * (100vw - 320px) / 730);
   }
 }
@@ -308,11 +311,37 @@ body._lock {
 }
 @media (any-hover: hover) {
   .main a:hover {
-    color: #000;
+    color: #FFF;
   }
 }
 .main img {
   max-width: 100%;
+}
+
+.links-main {
+  margin-top: 40px;
+  font-size: 11px;
+}
+@media (max-width: 1050px) {
+  .links-main {
+    margin-top: calc(25px + 15 * (100vw - 320px) / 730);
+  }
+}
+.links-main a {
+  font-size: inherit;
+  color: #fff;
+  text-decoration: none;
+}
+@media (any-hover: hover) {
+  .links-main a:hover {
+    text-decoration: underline;
+  }
+}
+.links-main a:not(:last-child) {
+  margin-bottom: 5px;
+}
+.links-main__title {
+  margin-bottom: 15px;
 }
 
 .footer {
