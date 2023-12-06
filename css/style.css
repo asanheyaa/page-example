@@ -163,56 +163,56 @@ body._lock {
 @font-face {
   font-family: Athletic;
   font-display: swap;
-  src: url("../fonts/Athletic.woff") format("woff"), url("../fonts/Athletic.woff2") format("woff2");
+  src: url("../fonts/athletic.woff") format("woff"), url("../fonts/athletic.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: SpiegelSans;
   font-display: swap;
-  src: url("../fonts/SpiegelSans4UI-Bold.woff2") format("woff2");
+  src: url("../fonts/spiegelsans4ui-bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: SpiegelSans;
   font-display: swap;
-  src: url("../fonts/SpiegelSans4UI-Regular.woff2") format("woff2");
+  src: url("../fonts/spiegelsans4ui-regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: SpiegelSansCd;
   font-display: swap;
-  src: url("../fonts/SpiegelSlab4UICd-ExtraBold.woff2") format("woff2");
+  src: url("../fonts/spiegelslab4uicd-extrabold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: SpiegelSerif;
   font-display: swap;
-  src: url("../fonts/SpiegelSerifTextUI-Regular.woff2") format("woff2");
+  src: url("../fonts/spiegelseriftextui-regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: SpiegelSerif;
   font-display: swap;
-  src: url("../fonts/SpiegelSerifTextUI-Bold.woff2") format("woff2");
+  src: url("../fonts/spiegelseriftextui-bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: SpiegelSerif;
   font-display: swap;
-  src: url("../fonts/SpiegelSerifTextUI-BoldItalic.woff2") format("woff2");
+  src: url("../fonts/spiegelseriftextui-bolditalic.woff2") format("woff2");
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
   font-family: SpiegelSerif;
   font-display: swap;
-  src: url("../fonts/SpiegelSerifTextUI-Italic.woff2") format("woff2");
+  src: url("../fonts/spiegelseriftextui-italic.woff2") format("woff2");
   font-weight: 400;
   font-style: italic;
 }
@@ -342,6 +342,87 @@ body._lock {
 }
 .links-main__title {
   margin-bottom: 15px;
+}
+
+a.main__button{
+  color: #fff;
+  background:#F93E3F;
+  display: inline-block;
+  width: 100%;
+  padding: 15px 10px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+}
+a.main__button:hover {
+  background: #a52b2b;
+
+}
+
+.vet-info-main{
+  display: flex;
+  color: #000000;
+  gap: 30px;
+  font-family: SpiegelSerif;
+    border-radius: 5px;
+    -webkit-: 0px 1px 4px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    background-color: #F9F8F8;
+    margin-bottom: 24px;
+}
+
+.vet-info-main__wrapper{
+  display: flex;
+    gap: 30px;
+    padding: 40px 30px;
+      border: 1px solid black;
+        border-radius: 5px;
+}
+
+@media (max-width:650px) {
+  .vet-info-main__wrapper{
+    flex-direction: column;
+  }
+}
+
+
+
+@media (max-width: 1050px) {
+
+.vet-info-main {
+    margin-bottom: calc(16px + 8 * (100vw - 320px) / 730);
+  }
+}
+
+
+.vet-info-main__signature{
+  width: 150px;
+
+}
+.vet-info-main__decor{
+ text-align: right;
+ flex: 1 0 40%;
+
+}
+
+.vet-info-main__text a{
+  color: #000000;
+  text-decoration: underline;
+}
+.vet-info-main__text a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.vet-info-main__title{
+  font-size: 24px;
+  font-weight: 700;
+}
+.vet-info-main__subtitle{
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 700;
 }
 
 .footer {
